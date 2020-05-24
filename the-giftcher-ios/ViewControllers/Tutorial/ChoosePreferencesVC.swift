@@ -37,6 +37,7 @@ class ChoosePreferencesVC: UIViewController {
     var categoryInt: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.setHidesBackButton(true, animated:true);
         customSettings()
     }
     
